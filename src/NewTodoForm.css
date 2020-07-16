@@ -1,0 +1,23 @@
+form {
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.allDone {
+    margin-right: 0;
+}
+
+form > * {
+    margin-right: 0.5rem;
+}
+
+input[type="text"] {
+    flex-grow: 1;
+}
+
+input, button {
+    padding: 0.8rem;
+}
